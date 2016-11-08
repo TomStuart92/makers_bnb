@@ -14,7 +14,7 @@ if (req.url == '/users/new' && req.method == 'GET' ) {
       res.write(html)
       res.end();
     });
-  }
+}
 }
 
 else if (req.url == '/users/new' && req.method == 'POST') {
